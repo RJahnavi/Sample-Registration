@@ -1,0 +1,41 @@
+<form [formGroup]="userForm" (ngSubmit)="onSubmit()" class="black-background">
+  <div class="absolute-center">
+    <div class="heading">INTERNSHIP SIGNUP FORM</div>
+    <div class="border"></div>
+ 
+    <div>
+      <p class="paragraph">Prepare for your career with a Project Management, Web-Development, Graphic design, or Digital Marketing internship at Northern.</p>
+      <table>
+        <tr>
+          <td>
+            <input type="email" formControlName="email" placeholder="Your Email Address*">
+          </td>
+          <td>
+            <select class="drop-down" id="select">
+              <option value="">Your Interests</option>
+              <option>Development</option>
+              <option>Design</option>
+              <option>Management</option>
+              <option>Marketing</option>
+              <option>Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button type="submit">{{buttonText}}</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div>
+    <h3 class="thanks"> 
+      Thanks for your interest!
+    </h3>
+    <p>
+      We will review your application and contact your for additional information should your background and experience meet the requirements of one of our openings.
+    </p>
+  </div>
+
+</form>

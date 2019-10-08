@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+.black-background {
+  background: #232323;
+}
+
+.absolute-center {
+  overflow: auto;
+  margin: auto;
+  padding: 15%;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: #232323;
+}
+
+.heading {
+  padding-bottom: 2%;
+  font-family: Montserrat Bold;
+  font-size: 65px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.border {
+  border: 3px solid #d02035;
+  width: 37%;
+}
+
+.paragraph {
+  font-family: Merriweather Regular;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: justify;
+  padding-top: 2%;
+}
+
+input {
+  width: 80%;
+  font-family: Merriweather Italic;
+  font-size: 16px;
+  color: #797979;
+  float: left;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+} 
+
+.drop-down {
+  width: 120%;
+  font-family: Merriweather Italic;
+  font-size: 16px;
+  color: #797979;
+  float: right;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  font-family: Merriweather Bold;
+  font-size: 20px;
+  text-align: center;
+  background: #d02035;
+  border: #d02035;
+  color: #ffffff;
+  padding: 1% 0 1% 0;
+}
+
+table {
+  padding-top: 1%;
+  width: 100%;
+}
+
+td {
+  padding: 1%;
+}
+
+.alert {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: right;
+}
+
+.thanks {
+  font-family: Montserrat Bold;
+  font-size: 35px;
+  color: #ffffff;
+}
